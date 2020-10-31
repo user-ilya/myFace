@@ -1,0 +1,26 @@
+.skills{
+    min-height: 560px;
+    padding-top: 120px;
+    &__subtitle{
+        position: relative;
+        margin: 0;
+        text-align: center;
+        @include before_circle;
+        &::before{
+            top: -6px;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+
+        text-transform: capitalize;
+    }
+    &__title{
+        text-align: center;
+    }
+}
+.subline{
+    &-center{
+        margin: 25px auto 0 auto;
+    }
+
+}
